@@ -185,7 +185,6 @@ section {
 }
 
 /* Contenedor de botones */
-/* Contenedor de botones */
 .contendor-botones {
   position: relative;
   display: flex;
@@ -194,8 +193,9 @@ section {
   height: 5rem;
 }
 
-.contenedor-botones button{
-  border: none;
+button{
+    background: none;
+    border: 0;
 }
 
 .contendor-botones .btn,
@@ -207,7 +207,6 @@ section {
   width: 15rem;
   height: 100%;
   background: var(--main-color);
-  border: none; 
   border-radius: 0.8rem;
   font-size: 1.8rem;
   font-weight: 600;
