@@ -342,7 +342,9 @@ span {
   width: 90%;
   border-radius: 50%;
   border: 0.2rem solid var(--main-color);
+  transition: 0.5s;
 }
+
 
 /* Circulo animado de la imagen */
 .imagen-sobremi .circulo-animado {
@@ -353,10 +355,16 @@ span {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border-top: 0.2rem solid var(--main-color);
+  /* border-top: 0.2rem solid var(--main-color);
   border-bottom: 0.2rem solid var(--main-color);
   border-left: 0.2rem solid var(--main-color);
-  border-right: 0.2rem solid var(--main-color);
+  border-right: 0.2rem solid var(--main-color); */
+}
+/* Animacion de imagem sobre mi */
+.imagen-sobremi:hover img {
+ transition: 0.5s;
+ transform: scale(1.3);
+ cursor: pointer;
 }
 
 /* Contenedor de sobre mi */
