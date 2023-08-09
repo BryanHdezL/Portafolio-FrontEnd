@@ -185,6 +185,7 @@ section {
 }
 
 /* Contenedor de botones */
+/* Contenedor de botones */
 .contendor-botones {
   position: relative;
   display: flex;
@@ -193,8 +194,12 @@ section {
   height: 5rem;
 }
 
-/* Botones del contenedor */
-.contendor-botones .btn {
+.contenedor-botones button{
+  border: none;
+}
+
+.contendor-botones .btn,
+.btn button {
   position: relative;
   display: flex;
   justify-content: center;
@@ -202,7 +207,7 @@ section {
   width: 15rem;
   height: 100%;
   background: var(--main-color);
-  border: 0.2rem solid var(--main-color);
+  border: none; 
   border-radius: 0.8rem;
   font-size: 1.8rem;
   font-weight: 600;
@@ -214,25 +219,31 @@ section {
 }
 
 /* Accion al pasar el curso por encima delboton */
-.contendor-botones .btn:hover {
+.contendor-botones .btn:hover,
+.btn button:hover {
   color: var(--main-color);
+  cursor: pointer;
+  border: 0.2rem solid var(--main-color); 
 }
 
 /* Estado inicial que tienen los botones */
-.contendor-botones .btn::before {
+.contendor-botones .btn::before, 
+.btn button::before{
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 0;
   height: 100%;
+  border: none;
   background: var(--bg-color);
   z-index: -1;
   transition: 0.5s;
 }
 
 /* Estado del boton con el cursor encima*/
-.contendor-botones .btn:hover::before {
+.contendor-botones .btn:hover::before,
+.btn button:hover::before {
   width: 100%;
 }
 
