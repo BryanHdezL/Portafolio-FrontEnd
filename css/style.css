@@ -4,6 +4,7 @@
 
 /* Importaciones */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&family=Roboto+Slab&display=swap');
 
 /* Ajustes generales */
 * {
@@ -26,7 +27,7 @@
 
 /* Etiqueta HTML */
 html {
-  font-size: 62.5%;
+  font-size: 68.5%;
   overflow-x: hidden;
 }
 
@@ -322,6 +323,7 @@ button{
 /* Estilo del texto de Sobre Mi */
 span {
   color: var(--main-color);
+  font-family: 'Lobster', cursive;
 }
 
 /* Contemedor de la imagen de sobre mi */
