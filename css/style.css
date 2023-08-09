@@ -687,11 +687,13 @@ span {
   height: 35rem;
   width: 45rem;
   border-radius: 2rem;
+  margin-top: 2rem;
 }
 
 /* Estilo de la breve descripcion del proyecto */
 .contenedor-proyectos .descripcion {
   font-size: 1.5rem;
+  margin: 3rem;
 }
 
 /********************************************************************
